@@ -1,0 +1,21 @@
+{
+    "name": "codejam",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "codejam": "1.js"
+    },
+    "dependencies": {
+        "fs": "^0.0.1-security"
+    },
+    "devDependencies": {
+        "@types/node": "^13.11.0"
+    },
+    "scripts": {
+        "dev": "tsc & node bin/5",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+}
